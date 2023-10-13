@@ -5,10 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  registry: registry.gitlab.com
+  repository: cs302-2023/g3-team8/project/assignment-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "d6b3699c"
 
 imagePullSecrets: []
 nameOverride: ""
