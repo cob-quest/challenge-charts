@@ -9,7 +9,7 @@ image:
   repository: cs302-2023/g3-team8/project/assignment-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: d6b3699c
+  tag: 1ac978d8
 
 imagePullSecrets: []
 nameOverride: ""
