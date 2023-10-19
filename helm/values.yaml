@@ -9,7 +9,7 @@ image:
   repository: registry.gitlab.com/cs302-2023/g3-team8/project/assignment-service/main
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 0ebf1fc0
+  tag: 369ce65b
 
 imagePullSecrets: 
   - name: docker-registry-credentials
