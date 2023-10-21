@@ -90,7 +90,7 @@ volumes:
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: 
   - name: cob-secrets
-    mountPath: "/etc/.env"
+    mountPath: "/app/.env"
     subPath: .env
 
 nodeSelector: {}
